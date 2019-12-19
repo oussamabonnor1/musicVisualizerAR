@@ -22,7 +22,7 @@ public class AudioVisualizer : MonoBehaviour {
 		music.GetSpectrumData(samples, 0, FFTWindow.Blackman);
 		for (int i = 0; i < cubes.Length; i++)
 		{
-			cubes[i].transform.localScale  = new Vector3(.3f, .3f,.1f + ((float) (samples[i] * 1.2)));
+			cubes[i].transform.localScale  = new Vector3(.3f, .3f,-.1f + ((float) (samples[i] * -1.2)));
 		}
 	}
 }
