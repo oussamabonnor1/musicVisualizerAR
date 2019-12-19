@@ -75,9 +75,9 @@ Material:
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _HoloCrowdness: 2
-    - _HoloDistance: 0.315
+    - _HoloDistance: 0.5
     - _HoloGap: 0.23
-    - _HoloValue: 0.91
+    - _HoloValue: 3
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
@@ -89,11 +89,11 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.48869863, g: 0.8867924, b: 0.40574938, a: 1}
+    - _Color: {r: 0.48869863, g: 0.45490196, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GlitchDirection: {r: 1, g: 1, b: 1, a: 0}
     - _GlitchValue: {r: 0, g: 0, b: 0, a: 0}
-    - _HoloColor: {r: 0, g: 0.7924528, b: 0.093910754, a: 0.105882354}
+    - _HoloColor: {r: 0, g: 1, b: 0.7647059, a: 0.7058824}
     - _HoloDir: {r: 0, g: 1, b: 0, a: 1}
-    - _HoloDirection: {r: 1, g: 0, b: 0, a: 0}
+    - _HoloDirection: {r: 1, g: 1, b: 0, a: 0}
     - _RimColor: {r: 0.5477066, g: 0, b: 1, a: 1}
