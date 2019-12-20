@@ -12,8 +12,8 @@ using easyar;
 using System.Runtime.InteropServices;
 public class ImageTargetController : MonoBehaviour
 {
-
     public AudioVisualizer audioVisualizer;
+    public static bool found, alreadyFound;
     public enum TargetType
     {
         LocalImage,
@@ -199,24 +199,26 @@ public class ImageTargetController : MonoBehaviour
 
     public void OnLost()
     {
+        found = false;
         Debug.Log("[EasyAR] OnLost targtet name: " + target.name());
         gameObject.SetActive(false);
         for (int i = 0; i < transform.childCount; i++)
         {
             transform.GetChild(i).gameObject.SetActive(false);
         }
-        audioVisualizer.lost();
     }
 
     public void OnFound()
     {
+        found = true;
+        audioVisualizer.found();
+        alreadyFound = true;
         Debug.Log("[EasyAR] OnFound targtet name: " + target.name());
         gameObject.SetActive(true);
         for (int i = 0; i < transform.childCount; i++)
         {
             transform.GetChild(i).gameObject.SetActive(true);
         }
-        audioVisualizer.found();
     }
 
     private void OnDestroy()
