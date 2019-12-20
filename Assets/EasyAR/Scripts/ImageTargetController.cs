@@ -13,6 +13,7 @@ using System.Runtime.InteropServices;
 public class ImageTargetController : MonoBehaviour
 {
 
+    public AudioVisualizer audioVisualizer;
     public enum TargetType
     {
         LocalImage,
@@ -204,6 +205,7 @@ public class ImageTargetController : MonoBehaviour
         {
             transform.GetChild(i).gameObject.SetActive(false);
         }
+        audioVisualizer.lost();
     }
 
     public void OnFound()
@@ -214,6 +216,7 @@ public class ImageTargetController : MonoBehaviour
         {
             transform.GetChild(i).gameObject.SetActive(true);
         }
+        audioVisualizer.found();
     }
 
     private void OnDestroy()
