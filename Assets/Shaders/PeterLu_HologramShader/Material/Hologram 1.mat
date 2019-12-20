@@ -67,8 +67,8 @@ Material:
     - _GlitchDensity: 15.36
     - _GlitchEffectPeriod: -1.25
     - _GlitchEffectStrength: 1
-    - _GlitchPeriod: 27.22
-    - _GlitchStrength: 0.0033
+    - _GlitchPeriod: 13
+    - _GlitchStrength: 0.025
     - _GlitchX: -0.14
     - _GlitchY: 40.53
     - _GlossMapScale: 1
@@ -91,7 +91,7 @@ Material:
     m_Colors:
     - _Color: {r: 0.48869863, g: 0.45490196, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _GlitchDirection: {r: 1, g: 1, b: 1, a: 0}
+    - _GlitchDirection: {r: -1, g: -1, b: -1, a: 0}
     - _GlitchValue: {r: 0, g: 0, b: 0, a: 0}
     - _HoloColor: {r: 0, g: 1, b: 0.7647059, a: 0.7058824}
     - _HoloDir: {r: 0, g: 1, b: 0, a: 1}

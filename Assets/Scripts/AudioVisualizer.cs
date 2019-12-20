@@ -16,13 +16,7 @@ public class AudioVisualizer : MonoBehaviour {
 
 	// Use this for initialization
 	public void found () {
-		for (int i = 0; i < cubes.Length; i++) {
-			if (!ImageTargetController.alreadyFound) cubes[i] = Instantiate (cubePrefab, transform.position, Quaternion.identity);
-			cubes[i].transform.parent = transform;
-			transform.localEulerAngles = new Vector3 (0, -((float) (360f / cubes.Length)) * i, 0);
-			cubes[i].transform.localPosition = transform.forward * circleRadius;
-			cubes[i].transform.LookAt (transform.up);
-		}
+		
 	}
 
 	// Update is called once per frame
