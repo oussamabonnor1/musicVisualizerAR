@@ -58,3 +58,5 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+/Assets/Music & Sounds/Halsey_Bad_At_Love.hd.mp3
+*.mp3

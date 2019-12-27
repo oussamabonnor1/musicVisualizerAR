@@ -75,7 +75,7 @@ Material:
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _HoloCrowdness: 2
-    - _HoloDistance: 0.502
+    - _HoloDistance: 0.079
     - _HoloGap: 0.23
     - _HoloValue: 0.91
     - _Metallic: 0
