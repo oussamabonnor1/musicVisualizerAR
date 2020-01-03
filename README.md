@@ -6,7 +6,7 @@
 An augmented reality music visualization app, for now it's just a demo so it has 3 predefined songs.
 
 ## Screenshot:
-<img src="Screenshot/CutGif.gif" width ="500"/>
+<img src="Screenshots/music.gif"/>
 
 ## App logic:
 Point the camera towards the target and enjoy the visuals!
